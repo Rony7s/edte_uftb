@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "816157696084",
+    "project_id": "edte-uftb",
+    "storage_bucket": "edte-uftb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816157696084:android:2ce5ac12a442753fbb8dc1",
+        "android_client_info": {
+          "package_name": "com.edte.edte_uftb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM-HXUtt-9WPECiy0E_j2Jb7HSIxF0dcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
