@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 import '../auth/login_screen.dart';
 
+import '../posts/posts_screen.dart';
+
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
 
@@ -52,7 +54,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         index: _currentIndex,
         children: [
           _buildHome(),
-          _buildPosts(),
+          // _buildPosts(),
+          const PostsScreen(),
           _buildNotice(),
           _buildProfile(),
           _buildSettings(),
@@ -236,15 +239,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
   // POSTS
   // ============================================================
 
-  Widget _buildPosts() {
-    return const Center(
-      child: Text(
-        'Posts\n\nPost system coming next 🚀',
-        textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 20),
-      ),
-    );
-  }
+  // Widget _buildPosts() {
+  //   return const Center(
+  //     child: Text(
+  //       'Posts\n\nPost system coming next 🚀',
+  //       textAlign: TextAlign.center,
+  //       style: TextStyle(fontSize: 20),
+  //     ),
+  //   );
+  // }
 
   // ============================================================
   // NOTICE
